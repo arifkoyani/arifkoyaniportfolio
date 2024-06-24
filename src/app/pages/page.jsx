@@ -1,4 +1,4 @@
-import Landing from "@/app/landing/page";
+import Landing from "@/app/Landing/page";
 
 const Pages=()=>{
     return(

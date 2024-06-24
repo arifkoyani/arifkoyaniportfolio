@@ -1,4 +1,4 @@
-import ContactUS from "@/app/landing/contactUs/page";
+import ContactUS from "@/app/Landing/contactUs/page";
 const Contact =()=>{
     return(
         <>

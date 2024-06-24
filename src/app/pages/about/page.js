@@ -1,4 +1,4 @@
-import Aboutme from "@/app/landing/aboutme/page"
+import Aboutme from "@/app/Landing/aboutme/page"
 const About =()=>{
     return(
         <>

@@ -20,29 +20,29 @@ const Navbar = () => {
                 Home
               </li>
             </Link>
-            <Link href="/components/pages/service">
+            <Link href="/pages/service">
               <li className="hover:text-[#f79b00] duration-700 cursor-pointer">
                 Service
               </li>
             </Link>
 
-            <Link href="/components/pages/about">
+            <Link href="/pages/about">
               <li className="hover:text-[#f79b00] duration-700 cursor-pointer">
                 About
               </li>
             </Link>
 
-            <Link href="/components/pages/gallery">
+            <Link href="/pages/gallery">
               <li className="hover:text-[#f79b00] duration-700 cursor-pointer">
                 Gallery
               </li>
             </Link>
-            <Link href="/components/pages/projects">
+            <Link href="/pages/projects">
               <li className="hover:text-[#f79b00] duration-700 cursor-pointer">
                 Project
               </li>
             </Link>
-            <Link href="/components/pages/contact">
+            <Link href="/pages/contact">
               <li className="hover:text-[#f79b00] duration-700 cursor-pointer">
                 Contact
               </li>

@@ -1,7 +1,7 @@
 "use client";
-import Landing from "./landing/page";
-import Footer from "../app/components/pages/footer/page";
-import Navbar from "./landing/navbar/page";
+import Landing from "./Landing/page";
+import Footer from "../app/pages/footer/page";
+import Navbar from "./Landing/navbar/page";
 
 export default function Home() {
   return (
@@ -9,8 +9,6 @@ export default function Home() {
       <Navbar />
       <Landing />
       <Footer />
-
-
     </>
   );
 }

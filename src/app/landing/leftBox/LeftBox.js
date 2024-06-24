@@ -1,3 +1,4 @@
+"use client";
 import SocialMediaIcons from "./icons/page";
 import DownloadBtn from "./button/page";
 import { motion } from "framer-motion";
@@ -11,7 +12,7 @@ const LeftBox = () => {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: 15 }}
             transition={{
-              duration: 1
+              duration: 1,
             }}
           >
             <h5 className="text-sm  mb-2">Hey! This is</h5>
