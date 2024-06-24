@@ -8,9 +8,6 @@ const PointsBar = () => {
         <div>
           <LandingFooter />
         </div>
-       
-       
-    
         <div>
 
         <motion.div

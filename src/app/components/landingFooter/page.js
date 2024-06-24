@@ -3,7 +3,9 @@ import pic from "/public/blob.svg";
 const LandingFooter = () => {
   return (
     <>
-      <Image src={pic} width={200} height={200} />
+      <Image src={pic} width={200} height={200} 
+      alt="shape"
+      />
     </>
   );
 };

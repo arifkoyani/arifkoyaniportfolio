@@ -22,7 +22,7 @@ const ContactUS = () => {
         icon: "error",
         title: "Please enter both email and message",
         showConfirmButton: false,
-        timer: 2000
+        timer: 2000,
       });
       return;
     }
@@ -38,7 +38,7 @@ const ContactUS = () => {
             icon: "success",
             title: "Your message has been sent",
             showConfirmButton: false,
-            timer: 1500
+            timer: 1500,
           });
         },
         (error) => {
@@ -68,7 +68,7 @@ const ContactUS = () => {
         <div className="w-[40vw] flex flex-col justify-center p-8 text-white bg-[#4a4033] rounded-lg">
           <h1 className="text-4xl font-bold mb-6">Message Us</h1>
           <p className="mb-4">
-            We'd love to hear from you! Send us a message using the form below,
+            We&apos;d love to hear from you! Send us a message using the form below,
             or email us.
           </p>
 

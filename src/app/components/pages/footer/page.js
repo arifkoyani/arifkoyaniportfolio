@@ -56,12 +56,12 @@ const Footer = () => {
             <h1 className="text-xs text-center">DISCOVER OUR SERVICE</h1>
             <span>
               <span className="flex gap-2">
-                <Image src={apple} width={70} height={70} />
-                <Image src={playstore} width={70} height={70} />
+                <Image src={apple} width={70} height={70}  alt="apple"/>
+                <Image src={playstore} width={70} height={70} alt="playstore icon" />
               </span>
             </span>
             <span>
-              <Image src={socialMedia} width={90} height={90} />
+              <Image src={socialMedia} width={90} height={90} alt="social media icons" />
             </span>
           </div>
         </div>
