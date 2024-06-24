@@ -47,6 +47,8 @@ const Gallery = () => {
               <Image
               src={pic}
               width={30}
+
+              alt="nature_image"
               />
             </div>
           </h1>

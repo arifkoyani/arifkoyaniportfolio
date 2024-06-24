@@ -8,7 +8,13 @@ const SocialMediaIcons = () => {
     <>
       <div className="flex gap-5">
         <Link href="https://www.facebook.com/arifkoyani/" target="_blank">
-          <Image src={pic} width={30} height={20} className="cursor-pointer" />
+          <Image
+            src={pic}
+            width={30}
+            height={20}
+            className="cursor-pointer"
+            alt="facebook"
+          />
         </Link>
 
         <Link href="https://www.youtube.com/" target="_blank">
@@ -17,6 +23,7 @@ const SocialMediaIcons = () => {
             width={30}
             height={30}
             className="cursor-pointer"
+            alt="twitter"
           />
         </Link>
 
@@ -26,6 +33,7 @@ const SocialMediaIcons = () => {
             width={27}
             height={15}
             className="cursor-pointer"
+            alt="insta"
           />
         </Link>
       </div>

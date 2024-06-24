@@ -20,6 +20,7 @@ const RightBox = () => {
       src={pic}
       width={250}
       height={250}
+      alt="profile"
       />
       </div>
 
