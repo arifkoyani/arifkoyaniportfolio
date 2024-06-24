@@ -1,6 +1,6 @@
 "use client";
-import Landing from "./Landing/page";
-import Footer from "../app/pages/footer/page";
+import Landing from "../app/Landing/page";
+import Footer from "./pages/Footer/page";
 import Navbar from "./Landing/navbar/page";
 
 export default function Home() {
