@@ -1,5 +1,5 @@
 "use client";
-import Leftbox from "./LeftBox/LeftBox";
+import Leftbox from "./LeftBox";
 import RightBox from "./rightbox/page";
 import PointsBar from "./pointsbar/page";
 import Aboutme from "./aboutme/page";
