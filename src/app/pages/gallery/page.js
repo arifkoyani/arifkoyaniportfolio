@@ -1,9 +1,10 @@
 "use client";
 import { useEffect, useState } from "react";
 import axios from "axios";
-import pic from "/public/ZZ5H.gif"
+import pic from "/public/ZZ5H.gif";
 import { motion } from "framer-motion";
 import Image from "next/image";
+
 const Gallery = () => {
   const [photos, setPhotos] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -44,11 +45,7 @@ const Gallery = () => {
               Every picture tells a story
             </span>
             <div>
-              <Image
-              src={pic}
-              width={30}
-              alt="nature_image"
-              />
+              <Image src={pic} width={30} alt="nature_image" />
             </div>
           </h1>
 
@@ -62,7 +59,7 @@ const Gallery = () => {
             </span>
           </h1>
 
-          <div className="grid grid-cols-4 gap-10 justify-center  bg-[#141c27] ">
+          <div className="grid grid-cols-4 gap-10 justify-center bg-[#141c27]">
             {photos.slice(0, 20).map((e) => (
               <div key={e.id}>
                 <motion.div
@@ -74,7 +71,7 @@ const Gallery = () => {
                     duration: 1,
                   }}
                 >
-                  <img
+                  <Image
                     onClick={() => alert("this is sample image")}
                     src={`${e.thumbnailUrl}`}
                     width={200}
@@ -91,4 +88,5 @@ const Gallery = () => {
     </>
   );
 };
+
 export default Gallery;
