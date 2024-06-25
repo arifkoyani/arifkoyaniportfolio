@@ -1,8 +1,8 @@
 "use client";
-import LeftBox from "../Landing/LeftBox/LeftBox";
-import RightBox from "../Landing/rightbox/page";
-import PointsBar from "../Landing/pointsbar/page";
-import AboutMe from "../Landing/aboutme/page";
+import LeftBox from "./leftBox/page";
+import RightBox from "./rightbox/page";
+import PointsBar from "./pointsbar/page";
+import AboutMe from "./aboutme/page";
 import MySkills from "./myskills/page";
 import ContactUS from "./contactUs/page";
 import Reviews from "./Reviews/page";
