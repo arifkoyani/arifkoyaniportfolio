@@ -3,7 +3,7 @@ import Link from "next/link";
 const Navbar = () => {
   return (
     <>
-      <nav className="bg-[#141c27] flex p-8 justify-around text-[#f79b00] ">
+      <nav className="bg-gradient-to-l from-[#141c27] via-[#f79b00] to-black p-8 shadow-lg shadow-black/50 flex justify-around text-[#f79b00]">
         <div>
           <h1 className="font-bold text-xs">
             {" "}

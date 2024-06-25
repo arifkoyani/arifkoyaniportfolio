@@ -6,6 +6,8 @@ import AboutMe from "../Landing/aboutme/page";
 import MySkills from "./myskills/page";
 import ContactUS from "./contactUs/page";
 import Reviews from "./Reviews/page";
+import HellWorld from "./HelloWorld/page";
+import Linkedin from "./HelloWorld/button/page"
 
 const Landing = () => {
   return (
@@ -15,6 +17,8 @@ const Landing = () => {
         <RightBox />
       </div>
       <PointsBar />
+      <HellWorld/>
+      <Linkedin/>
       <AboutMe />
       <MySkills />
       <ContactUS />

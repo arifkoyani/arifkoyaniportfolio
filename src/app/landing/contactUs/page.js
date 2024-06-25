@@ -6,6 +6,7 @@ import gmail from "/public/contactus/gmal.png";
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import Swal from "sweetalert2";
+import HeartCircle from "./like/page";
 
 const ContactUS = () => {
   const form = useRef();
@@ -50,7 +51,8 @@ const ContactUS = () => {
   return (
     <div className="h-[100vh] bg-[#141c27] flex items-center justify-center">
       <div className="flex gap-10 bg-[#141c27] rounded-lg shadow-2xl">
-        <div className="w-[40vw] flex flex-col justify-center text-white">
+        <div className="w-[40vw] flex flex-col justify-between pb-8 text-white pl-[20px]">
+         <span>
           <h1 className="text-4xl font-bold mb-6">CONTACT INFO</h1>
           <div className="flex items-center gap-2 mb-4">
             <Image src={location} width={20} height={20} alt="location icon" />
@@ -64,6 +66,10 @@ const ContactUS = () => {
             <Image src={whatsapp} width={20} height={20} alt="phone icon" />
             <span>+092 03010104990</span>
           </div>
+          </span>
+          <span>
+  <HeartCircle/>
+          </span>
         </div>
         <div className="w-[40vw] flex flex-col justify-center p-8 text-white bg-[#4a4033] rounded-lg">
           <h1 className="text-4xl font-bold mb-6">Message Us</h1>
