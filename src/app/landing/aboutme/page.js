@@ -19,7 +19,7 @@ const AboutMe = () => {
             <div className="w-[11vw] h-1 bg-slate-50"></div>
           </div>
           <p className="text-[14px] leading-10">
-            🌐 Hey there! I&apos;m Arifkoyani, a passionate web developer and front-end engineer 🎨. Specializing in Next.js, I craft stunning, responsive websites that offer seamless user experiences 📱💻. With a knack for design and a love for coding, I bring ideas to life with clean, efficient code ✨. My work reflects creativity and precision, ensuring every project is both beautiful and functional 🌟. Let&apos;s turn your vision into reality together! 🚀 #WebDeveloper #FrontEndEngineer #NextJS #CreativeCoding <b className="font-bold">........More</b>
+            🌐 Hey there! I&apos;m Arifkoyani, a passionate web developer and front-end engineer 🎨. Specializing in Next.js, I craft stunning, responsive websites that offer seamless user experiences 📱💻. With a knack for design and a love for coding, I bring ideas to life with clean, efficient code ✨. My work reflects creativity and precision, ensuring every project is both beautiful and functional 🌟. Let&apos;s turn your vision into reality together! 🚀 #WebDeveloper #FrontEndEngineer #NextJS #CreativeCoding <b className="font-bold">....More</b>
           </p>
         </div>
       </motion.div>
