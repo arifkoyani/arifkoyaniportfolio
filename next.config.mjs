@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     images: {
-        domains: ['via.placeholder.com','flowbite.s3.amazonaws.com']
+      domains: ['via.placeholder.com']
 
       },
       eslint:{

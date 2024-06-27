@@ -19,11 +19,13 @@ const PointsBar = () => {
               duration: 1,
             }}
           >
-            <p className="font-bold"> 
-              
-            <CountUp start={0} end={6}> </CountUp>
-              +</p>
-            <p>Years Experienced</p>
+            <p className="font-bold">
+              <CountUp start={0} end={6}>
+                {" "}
+              </CountUp>
+              +
+            </p>
+            <p className="font-light">Years Experienced</p>
           </motion.div>
         </div>
         <div>
@@ -37,11 +39,12 @@ const PointsBar = () => {
             }}
           >
             <p className="font-bold">
-            <CountUp start={0} end={500}> </CountUp>
-            +
-              
-              </p>
-            <p>live projects</p>
+              <CountUp start={0} end={500}>
+                {" "}
+              </CountUp>
+              +
+            </p>
+            <p className="font-light">live projects</p>
           </motion.div>
         </div>
         <div>
@@ -55,9 +58,12 @@ const PointsBar = () => {
             }}
           >
             <p className="font-bold">
-            <CountUp start={0} end={3000}> </CountUp>
-              +</p>
-            <p>psd to HTML</p>
+              <CountUp start={0} end={3000}>
+                {" "}
+              </CountUp>
+              +
+            </p>
+            <p className="font-light">psd to HTML</p>
           </motion.div>
         </div>
         <div>
@@ -71,9 +77,12 @@ const PointsBar = () => {
             }}
           >
             <p className="font-bold">
-            <CountUp start={0} end={2000}> </CountUp>
-    +</p>
-            <p>Figma To HTML</p>
+              <CountUp start={0} end={2000}>
+                {" "}
+              </CountUp>
+              +
+            </p>
+            <p className="font-light">Figma To HTML</p>
           </motion.div>
         </div>
       </div>
