@@ -1,4 +1,5 @@
 "use client";
+import CountUp from "react-countup";
 import LandingFooter from "../../landingFooter/page";
 import { motion } from "framer-motion";
 const PointsBar = () => {
@@ -18,7 +19,10 @@ const PointsBar = () => {
               duration: 1,
             }}
           >
-            <p className="font-bold"> 6+</p>
+            <p className="font-bold"> 
+              
+            <CountUp start={0} end={6}> </CountUp>
+              +</p>
             <p>Years Experienced</p>
           </motion.div>
         </div>
@@ -32,7 +36,11 @@ const PointsBar = () => {
               duration: 1,
             }}
           >
-            <p className="font-bold">500+</p>
+            <p className="font-bold">
+            <CountUp start={0} end={500}> </CountUp>
+            +
+              
+              </p>
             <p>live projects</p>
           </motion.div>
         </div>
@@ -46,7 +54,9 @@ const PointsBar = () => {
               duration: 1,
             }}
           >
-            <p className="font-bold">2000+</p>
+            <p className="font-bold">
+            <CountUp start={0} end={3000}> </CountUp>
+              +</p>
             <p>psd to HTML</p>
           </motion.div>
         </div>
@@ -60,8 +70,10 @@ const PointsBar = () => {
               duration: 1,
             }}
           >
-            <p className="font-bold">2000+</p>
-            <p>psd To HTML</p>
+            <p className="font-bold">
+            <CountUp start={0} end={2000}> </CountUp>
+    +</p>
+            <p>Figma To HTML</p>
           </motion.div>
         </div>
       </div>
