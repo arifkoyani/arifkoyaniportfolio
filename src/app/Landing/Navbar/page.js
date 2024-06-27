@@ -8,7 +8,7 @@ const Navbar = () => {
           <h1 className="font-bold text-xs">
             {" "}
             ARIF
-            <span className="text-black text-xs">KOYANI</span>
+            <span className="text-white text-xs">KOYANI</span>
           </h1>
         </div>
 
