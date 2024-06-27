@@ -1,7 +1,7 @@
 "use client";
 import SocialMediaIcons from "./icons/page";
 import DownloadBtn from "./button/page";
-import { motion,useInView,useAnimation } from "framer-motion";
+import { motion } from "framer-motion";
 
 
 const LeftBox = () => {
