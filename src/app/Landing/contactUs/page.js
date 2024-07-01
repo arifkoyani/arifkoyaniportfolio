@@ -10,7 +10,7 @@ import HeartCircle from "./like/page";
 
 const ContactUS = () => {
   const form = useRef();
-
+console.log("new changes");
   const sendEmail = (e) => {
     e.preventDefault();
 
