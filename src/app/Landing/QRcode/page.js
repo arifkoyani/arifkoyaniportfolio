@@ -7,6 +7,7 @@ import { motion } from "framer-motion";
 import { ColorRing } from "react-loader-spinner";
 
 const QRcode = () => {
+  console.log("clear")
   const [QRcode, setQRcode] = useState(false);
   const [loader, setloader] = useState(true);
   const GenerateQrcode = async () => {
