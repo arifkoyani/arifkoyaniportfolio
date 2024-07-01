@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 const LeftBox = () => {
 
-
+console.log("this is code")
   return (
     <>
       <div className=" h-[70vh] bg-[#141c27] w-[50vw] flex items-center  p-[30px] text-white">
