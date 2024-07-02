@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 import { ColorRing } from "react-loader-spinner";
 
 const QRcode = () => {
-  console.log("clear")
+  console.log("clear");
   const [QRcode, setQRcode] = useState(false);
   const [loader, setloader] = useState(true);
   const GenerateQrcode = async () => {
@@ -28,6 +28,10 @@ const QRcode = () => {
       pt-11
       "
       >
+        <h1 className="font-bold text-[25px] first-letter:black">
+          <span className="text-[#d78905]">Generate</span> a QR code and connect
+          with us.
+        </h1>
         <div className="h-[300px] flex justify-center items-center">
           {loader ? (
             <span>
