@@ -1,15 +1,13 @@
 "use client";
 import CountUp from "react-countup";
-import LandingFooter from "../../landingFooter/page";
 import { motion } from "framer-motion";
 const PointsBar = () => {
   return (
     <>
-      <div className="bg-black h-[15vh]  flex text-white justify-evenly items-center">
-        <div>
-          <LandingFooter />
-        </div>
-        <div>
+      <div className="bg-black p-5 flex text-white justify-evenly items-center pointsbar">
+      
+        <div className="flex justify-center items-center">
+      
           <motion.div
             initial={{ opacity: 0, y: 15 }}
             animate={{ opacity: 1, y: 0 }}

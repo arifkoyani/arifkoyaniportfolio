@@ -25,7 +25,7 @@ const HeartCircle = () => {
   };
 
   return (
-    <div className="flex justify-center items-center gap-1 bg-[#141c27] p-2 text-white">
+    <div className="flex justify-center items-center gap-1 bg-[#141c27] p-2 text-white Reaction">
       <div className="flex gap-2">
 
       <Image

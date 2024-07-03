@@ -10,7 +10,6 @@ import HeartCircle from "./like/page";
 
 const ContactUS = () => {
   const form = useRef();
-console.log("new changes");
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -29,7 +28,12 @@ console.log("new changes");
     }
 
     emailjs
-      .sendForm("service_dfpm1ad", "template_82y9pqa", form.current, "7gBM1707Wr9w3eWCl")
+      .sendForm(
+        "service_dfpm1ad",
+        "template_82y9pqa",
+        form.current,
+        "7gBM1707Wr9w3eWCl"
+      )
       .then(
         () => {
           console.log("SUCCESS!");
@@ -49,33 +53,38 @@ console.log("new changes");
   };
 
   return (
-    <div className="h-[100vh] bg-[#141c27] flex items-center justify-center">
-      <div className="flex gap-10 bg-[#141c27] rounded-lg shadow-2xl">
+    <div className=" bg-[#141c27] flex items-center justify-center">
+      <div className="flex gap-10 bg-[#141c27] rounded-lg shadow-2xl contactUs">
         <div className="w-[40vw] flex flex-col justify-between pb-8 text-white pl-[20px]">
-         <span>
-          <h1 className="text-4xl font-bold mb-6">CONTACT INFO</h1>
-          <div className="flex items-center gap-2 mb-4">
-            <Image src={location} width={20} height={20} alt="location icon" />
-            <span>Jutial Gilgit, PAKISTAN</span>
-          </div>
-          <div className="flex items-center gap-2 mb-4">
-            <Image src={gmail} width={20} height={20} alt="email icon" />
-            <span>arifkoyani@gmail.com</span>
-          </div>
-          <div className="flex items-center gap-2 mb-4">
-            <Image src={whatsapp} width={20} height={20} alt="phone icon" />
-            <span>+092 03010104990</span>
-          </div>
+          <span>
+            <h1 className="text-4xl font-bold mb-6">CONTACT INFO</h1>
+            <div className="flex items-center gap-2 mb-4">
+              <Image
+                src={location}
+                width={20}
+                height={20}
+                alt="location icon"
+              />
+              <span>Jutial Gilgit, PAKISTAN</span>
+            </div>
+            <div className="flex items-center gap-2 mb-4">
+              <Image src={gmail} width={20} height={20} alt="email icon" />
+              <span>arifkoyani@gmail.com</span>
+            </div>
+            <div className="flex items-center gap-2 mb-4">
+              <Image src={whatsapp} width={20} height={20} alt="phone icon" />
+              <span>+092 03010104990</span>
+            </div>
           </span>
           <span>
-  <HeartCircle/>
+            <HeartCircle />
           </span>
         </div>
         <div className="w-[40vw] flex flex-col justify-center p-8 text-white bg-[#4a4033] rounded-lg">
           <h1 className="text-4xl font-bold mb-6">Message Us</h1>
           <p className="mb-4">
-            We&apos;d love to hear from you! Send us a message using the form below,
-            or email us.
+            We&apos;d love to hear from you! Send us a message using the form
+            below, or email us.
           </p>
 
           <form ref={form} onSubmit={sendEmail}>

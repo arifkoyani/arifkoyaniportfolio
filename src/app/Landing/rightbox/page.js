@@ -15,7 +15,7 @@ const RightBox = () => {
           duration: 1,
         }}
       >
-        <div className="h-[50vh] md:h-[60vh] lg:h-[70vh] flex justify-center items-center animate-pulse p-2">
+        <div className=" flex justify-center items-center animate-pulse p-2">
           <Image
             src={pic}
             height={100}

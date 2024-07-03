@@ -11,16 +11,16 @@ import ReactImg from "/public/myskills/React.png"; // Renamed to avoid conflict 
 const Myskills = () => {
   return (
     <>
-      <div className="flex flex-col items-center justify-center p-2 bg-[#141c27] gap-5 h-[100vh]">
+      <div className="flex flex-col items-center justify-center p-2 bg-[#141c27] gap-5 ">
         <div>
           <h1
-            className="font-bold text-[30px] text-[#f79b00]"
+            className="font-bold text-[30px] text-[#f79b00] skillsnames"
           >
             MY SKILLS
           </h1>
         </div>
 
-        <div className="flex gap-4 p-2 justify-around bg-[#141c27]">
+        <div className="flex gap-4 p-2 justify-around bg-[#141c27] skills">
           <Image
             src={nextt}
             width={100}

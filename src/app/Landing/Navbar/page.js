@@ -5,14 +5,14 @@ const Navbar = () => {
     <>
       <nav className="bg-[#141c27] p-8 shadow-xlg shadow-black/50 flex justify-around text-[#f79b00]">
         <div>
-          <h1 className="font-bold text-xs">
+          <h1 className="font-bold text-xs namelogo">
             {" "}
             ARIF
             <span className="text-white text-xs">KOYANI</span>
           </h1>
         </div>
 
-        <div>
+        <div className="navbar-links">
           <ul className="flex gap-6 text-white  font-extralight ">
             <Link href="/">
               {" "}

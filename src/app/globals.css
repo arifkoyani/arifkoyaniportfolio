@@ -2,3 +2,83 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+
+@media only screen and (max-width: 1312px) {
+  
+.contactUs{
+display: flex;
+flex-direction: column;
+}
+.Reaction{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+}
+
+@media only screen and (max-width: 992px){
+   
+    .leftandright{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .leftbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+   .skills{
+   
+    display: flex;
+    flex-direction: column;
+   }
+   .skillsnames{
+font-size: 50px;
+   }
+  
+}
+@media only screen and (max-width: 800px) {
+
+.aboutme{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+}
+@media only screen and (max-width: 668px) {
+    nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 30px;
+    align-items: center;
+    padding-top: 100px;
+    }
+    
+    .navbar-links{
+        display: flex;
+        flex-direction: column;
+    }
+    .navbar-links ul{
+        display: flex;
+        flex-direction: column;
+        font-size:xx-large;
+    }
+    nav  .namelogo{
+        font-size: 50px;
+    }
+
+    .pointsbar{
+        padding-top: 50px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+}
