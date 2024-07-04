@@ -5,11 +5,17 @@ const Navbar = () => {
     <>
       <nav className="bg-[#141c27] p-8 shadow-xlg shadow-black/50 flex justify-around text-[#f79b00]">
         <div>
+          <Link href="/">
+          
+          
           <h1 className="font-bold text-xs namelogo">
             {" "}
             ARIF
             <span className="text-white text-xs">KOYANI</span>
           </h1>
+
+          </Link>
+
         </div>
 
         <div className="navbar-links">

@@ -3,9 +3,11 @@ import Image from "next/image";
 import pic from "/public/webwork.png";
 import { motion } from "framer-motion";
 
+
+
 const AboutMe = () => {
   return (
-    <div className="text-white bg-[#141c27] flex   aboutme">
+    <div className="text-white bg-[#141c27] flex aboutme">
       <motion.div
         initial={{ opacity: 0, y: 15 }}
         animate={{ opacity: 1, y: 0 }}
@@ -24,9 +26,6 @@ const AboutMe = () => {
         </div>
       </motion.div>
 
-
-
-
       <motion.div
         initial={{ opacity: 0, y: 15 }}
         animate={{ opacity: 1, y: 0 }}
@@ -36,7 +35,6 @@ const AboutMe = () => {
       >
         <Image src={pic} width={470} alt="web_work" />
       </motion.div>
-
     </div>
   );
 };

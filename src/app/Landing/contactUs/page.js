@@ -54,7 +54,7 @@ const ContactUS = () => {
 
   return (
     <div className=" bg-[#141c27] flex items-center justify-center">
-      <div className="flex gap-10 bg-[#141c27] rounded-lg shadow-2xl contactUs">
+      <div className="flex gap-10 bg-[#141c27] rounded-lg shadow-2xl  pt-72 contactUs">
         <div className="w-[40vw] flex flex-col justify-between pb-8 text-white pl-[20px]">
           <span>
             <h1 className="text-4xl font-bold mb-6">CONTACT INFO</h1>

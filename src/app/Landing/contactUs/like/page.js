@@ -9,17 +9,16 @@ import sad from "/public/emojies/sad.gif";
 import like from "/public/emojies/like.gif";
 import wow from "/public/emojies/wow.gif";
 
-
 const HeartCircle = () => {
   const [activeImage, setActiveImage] = useState(null);
   const [likes, setLikes] = useState(987);
 
   const handleImageClick = (imageSrc) => {
     if (activeImage === imageSrc) {
-      setActiveImage(null); 
+      setActiveImage(null);
       setLikes(likes - 1);
     } else {
-      setActiveImage(imageSrc); 
+      setActiveImage(imageSrc);
       setLikes(likes + 1);
     }
   };
@@ -27,8 +26,7 @@ const HeartCircle = () => {
   return (
     <div className="flex justify-center items-center gap-1 bg-[#141c27] p-2 text-white Reaction">
       <div className="flex gap-2">
-
-      <Image
+        <Image
           src={like}
           width={30}
           alt="like emoji"
@@ -38,7 +36,7 @@ const HeartCircle = () => {
           }`}
         />
 
-<Image
+        <Image
           src={love}
           width={30}
           alt="love emoji"
@@ -47,7 +45,8 @@ const HeartCircle = () => {
             activeImage === love ? "border-2 border-[#f79b00]" : ""
           }`}
         />
-         <Image
+        
+        <Image
           src={care}
           width={30}
           alt="care emoji"
@@ -66,7 +65,7 @@ const HeartCircle = () => {
             activeImage === hhh ? "border-2 border-[#f79b00]" : ""
           }`}
         />
-         <Image
+        <Image
           src={wow}
           width={30}
           alt="hhh emoji"
@@ -75,7 +74,7 @@ const HeartCircle = () => {
             activeImage === hhh ? "border-2 border-[#f79b00]" : ""
           }`}
         />
-       <Image
+        <Image
           src={sad}
           width={30}
           alt="sad emoji"
@@ -93,9 +92,6 @@ const HeartCircle = () => {
             activeImage === angry ? "border-2 border-[#f79b00]" : ""
           }`}
         />
-       
-       
-        
       </div>
       <span className=" text-[#f79b00] text-sm pl-2">
         {likes}{" "}

@@ -6,6 +6,7 @@ import QRimage from "/public/QRarifkoyani.png";
 import { motion } from "framer-motion";
 import { ColorRing } from "react-loader-spinner";
 
+
 const QRcode = () => {
   // console.log("clear");
   const [QRcode, setQRcode] = useState(false);
@@ -25,7 +26,7 @@ const QRcode = () => {
       h-screen
       text-white flex flex-col justify-center items-center 
       gap-10
-      pt-11
+      pt-40
       "
       >
         <h1 className="font-bold text-[25px] first-letter:black">

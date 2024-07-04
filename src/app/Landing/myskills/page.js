@@ -11,7 +11,7 @@ import ReactImg from "/public/myskills/React.png"; // Renamed to avoid conflict 
 const Myskills = () => {
   return (
     <>
-      <div className="flex flex-col items-center justify-center p-2 bg-[#141c27] gap-5 ">
+      <div className="flex flex-col items-center justify-center  pt-60  bg-[#141c27] gap-5 ">
         <div>
           <h1
             className="font-bold text-[30px] text-[#f79b00] skillsnames"

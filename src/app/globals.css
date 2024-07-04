@@ -7,10 +7,7 @@
 
 @media only screen and (max-width: 1312px) {
   
-.contactUs{
-display: flex;
-flex-direction: column;
-}
+
 .Reaction{
     display: flex;
     flex-direction: column;
@@ -49,6 +46,10 @@ font-size: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.contactUs{
+display: flex;
+flex-direction: column;
 }
 }
 @media only screen and (max-width: 668px) {

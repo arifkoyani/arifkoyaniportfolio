@@ -5,10 +5,10 @@ import PointsBar from "./pointsBar/page";
 import AboutMe from "./aboutMe/page";
 import MySkills from "./mySkills/page";
 import ContactUS from "./contactUs/page";
-import Reviews from "./reviews/page";
-import HellWorld from "./helloWorld/page";
+import Reviews from "./Reviews/page";
+import HellWorld from "./HelloWorld/page";
 import Linkedin from "./HelloWorld/button/page";
-import QRcode from "../landing/qrCode/page";
+import QRcode from "./qrCode/page";
 
 const Landing = () => {
   return (
