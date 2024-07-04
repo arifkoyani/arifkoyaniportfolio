@@ -59,7 +59,7 @@ const Gallery = () => {
             </span>
           </h1>
 
-          <div className="grid grid-cols-4 gap-10 justify-center bg-[#141c27]">
+          <div className="grid grid-cols-4 gap-10 justify-center bg-[#141c27] images">
             {photos.slice(0, 20).map((e) => (
               <div key={e.id}>
                 <motion.div

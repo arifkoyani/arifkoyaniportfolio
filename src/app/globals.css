@@ -15,9 +15,14 @@
     align-items: center;
     gap: 30px;
 }
+
 }
 
 @media only screen and (max-width: 992px){
+    .images{
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
    
     .leftandright{
         display: flex;
