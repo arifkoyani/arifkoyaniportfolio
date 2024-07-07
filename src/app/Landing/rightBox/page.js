@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import Image from "next/image";
 import pic from "/public/arif.png";
 import { motion } from "framer-motion";
@@ -15,13 +15,11 @@ const RightBox = () => {
           duration: 1,
         }}
       >
-        <div>
-          <Image
-            src={pic}
-            width={300}
-              height={300}
-            alt="profile"
-          />
+        <div
+          className="flex justify-center h-full items-center w-[50vw]"
+         
+        >
+          <Image src={pic} width={300} height={250} alt="profile" />
         </div>
       </motion.div>
     </>
