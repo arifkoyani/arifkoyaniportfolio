@@ -1,6 +1,6 @@
 "use client"
 import Image from "next/image";
-import pic from "/public/mypic.svg";
+import pic from "/public/arif.png";
 import { motion } from "framer-motion";
 
 const RightBox = () => {
@@ -15,12 +15,12 @@ const RightBox = () => {
           duration: 1,
         }}
       >
-        <div className=" flex justify-center items-center animate-pulse p-2">
+        <div>
           <Image
             src={pic}
-            height={100}
+            width={300}
+              height={300}
             alt="profile"
-            className="w-full h-auto max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg"
           />
         </div>
       </motion.div>

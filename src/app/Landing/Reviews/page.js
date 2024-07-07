@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import profilePic from "/public/mypic.svg";
+import profilePic from "/public/arif.png";
 import a from "/public/usersdp/a.png";
 import b from "/public/usersdp/b.png";
 import e from "/public/usersdp/e.png";

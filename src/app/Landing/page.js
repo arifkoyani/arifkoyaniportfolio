@@ -14,7 +14,7 @@ import MessageMe from "./contactUs/messageMe/page";
 const Landing = () => {
   return (
     <>
-      <div className="w-[100%] bg-[#141c27] flex justify-around leftandright">
+      <div className="w-[100%] bg-[#141c27] flex justify-center  items-center leftandright">
         <LeftBox />
         <RightBox />
       </div>
