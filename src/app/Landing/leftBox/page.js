@@ -8,7 +8,7 @@ const LeftBox = () => {
   console.log("this is code");
   return (
     <>
-      <div className="  bg-[#141c27] w-[50vw]  justify-end flex items-center  text-white">
+      <div className="  bg-[#141c2700] w-[50vw]  justify-end flex items-center  text-white">
         <div className="flex-col leftbox ">
           <div>
             <motion.div

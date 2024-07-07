@@ -10,23 +10,26 @@ import HellWorld from "./HelloWorld/page";
 import Linkedin from "./HelloWorld/button/page";
 import QRcode from "./qrCode/page";
 import MessageMe from "./contactUs/messageMe/page";
-
+import ParticlesComponent from '../particles/particles';
 const Landing = () => {
   return (
     <>
-      <div className="w-[100%] bg-[#141c27] flex justify-center  items-center leftandright">
-        <LeftBox />
-        <RightBox />
+      <div id="particles">
+      <ParticlesComponent id="particles" />
+        <div className="w-[100%] bg-[#141c2789] flex justify-center  items-center leftandright">
+          <LeftBox />
+          <RightBox />
+        </div>
+        <PointsBar />
+        <HellWorld />
+        <Linkedin />
+        <AboutMe />
+        <MySkills />
+        <ContactUS />
+        <QRcode />
+        <MessageMe />
+        <Reviews />
       </div>
-      <PointsBar />
-      <HellWorld />
-      <Linkedin />
-      <AboutMe />
-      <MySkills />
-      <ContactUS />
-      <QRcode />
-      <MessageMe />
-      <Reviews />
     </>
   );
 };

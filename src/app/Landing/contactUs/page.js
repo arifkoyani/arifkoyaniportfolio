@@ -53,8 +53,8 @@ const ContactUS = () => {
   };
 
   return (
-    <div className=" bg-[#141c27] flex items-center justify-center">
-      <div className="flex gap-10 bg-[#141c27] rounded-lg shadow-2xl  pt-72 contactUs">
+    <div className=" bg-[#141c2789] flex items-center justify-center">
+      <div className="flex gap-10 bg-[#141c2789] rounded-lg shadow-2xl  pt-72 contactUs">
         <div className="w-[40vw] flex flex-col justify-between pb-8 text-white pl-[20px]">
           <span>
             <h1 className="text-4xl font-bold mb-6">CONTACT INFO</h1>
@@ -80,7 +80,7 @@ const ContactUS = () => {
             <HeartCircle />
           </span>
         </div>
-        <div className="w-[40vw] flex flex-col justify-center p-8 text-white bg-[#4a4033] rounded-lg">
+        <div className="w-[40vw] flex flex-col justify-center p-8 text-white bg-[#141c2789] rounded-lg">
           <h1 className="text-4xl font-bold mb-6">Message Us</h1>
           <p className="mb-4">
             We&apos;d love to hear from you! Send us a message using the form

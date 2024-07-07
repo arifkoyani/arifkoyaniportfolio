@@ -22,7 +22,7 @@ const QRcode = () => {
   return (
     <>
       <div
-        className="w-[100%]  bg-[#141c27]
+        className="w-[100%]  bg-[#141c2789]
       h-screen
       text-white flex flex-col justify-center items-center 
       gap-10

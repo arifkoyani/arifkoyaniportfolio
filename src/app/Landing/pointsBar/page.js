@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const PointsBar = () => {
   return (
     <>
-      <div className="bg-black p-5 flex text-white justify-evenly items-center pointsbar">
+      <div className="bg-[#141c27e1] p-5 flex text-white justify-evenly items-center pointsbar">
       
         <div className="flex justify-center items-center">
       

@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Linkedin = () => {
   return (
-    <div className="flex bg-[#141c27] justify-center">
+    <div className="flex bg-[#141c2789] justify-center">
      
      <Link href="https://www.linkedin.com/in/arifkoyani/" target="_blank">
     

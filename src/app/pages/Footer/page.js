@@ -6,8 +6,8 @@ import socialMedia from "/public/socialicons.png";
 const Footer = () => {
   return (
     <>
-      <div className="bg-[#141c27] flex flex-col ">
-        <div className="flex flex-wrap bg-black pl-5 pr-5 text-white text-[7px] pt-5 pb-5 justify-between items-center">
+      <div className="bg-[#141c27a6] flex flex-col ">
+        <div className="flex flex-wrap bg-[#141c27a6] pl-5 pr-5 text-white text-[7px] pt-5 pb-5 justify-between items-center">
           <div className="text-[8px] flex-col">
             <h1 className="font-bold text-sm mb-2">
               ARIF<span className="text-[#e79203] text-xs">KOYANI</span>

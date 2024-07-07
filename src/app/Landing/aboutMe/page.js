@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 
 const AboutMe = () => {
   return (
-    <div className="text-white bg-[#141c27] flex aboutme">
+    <div className="text-white bg-[#141c2789] flex aboutme">
       <motion.div
         initial={{ opacity: 0, y: 15 }}
         animate={{ opacity: 1, y: 0 }}
@@ -15,8 +15,8 @@ const AboutMe = () => {
         transition={{ duration: 1 }}
         className="bg-[#141c27] w-[50vw] pl-[10px]"
       >
-        <div className="flex flex-col gap-[30px] pt-[100px] justify-center items-center p-10">
-          <div className="flex flex-col gap-1">
+        <div className="flex bg-[#141c2700] flex-col gap-[30px] pt-[100px] justify-center items-center p-10">
+          <div className="flex flex-col gap-1 bg-[#141c2789]">
             <h1 className="font-bold text-[30px]">THIS IS ABOUT ME</h1>
             <div className="w-[11vw] h-1 bg-slate-50"></div>
           </div>
@@ -31,7 +31,7 @@ const AboutMe = () => {
         animate={{ opacity: 1, y: 0 }}
         exit={{ opacity: 0, y: 15 }}
         transition={{ delay: 1, duration: 2 }}
-        className="flex w-[50vw] justify-center"
+        className="flex w-[50vw] justify-center bg-[#141c2789]"
       >
         <Image src={pic} width={470} alt="web_work" />
       </motion.div>

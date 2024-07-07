@@ -8,8 +8,8 @@ import e from "/public/usersdp/e.png";
 const Reviews = () => {
   return (
     <>
-      <div className="flex justify-center items-center h-[210px] bg-[#141c27]">
-        <div className="max-w-2xl mx-auto bg-[#141c27]  text-white rounded-lg shadow-lg p-8">
+      <div className="flex justify-center items-center h-[210px] bg-[#141c2789]">
+        <div className="max-w-2xl mx-auto bg-[#141c2789] text-white rounded-lg shadow-lg p-8">
           <h2 className="text-3xl font-bold mb-4 text-center border-b pb-4">
             Reviews From Clients
           </h2>
@@ -19,9 +19,9 @@ const Reviews = () => {
           </p>
         </div>
       </div>
-      <div className="flex justify-center gap-5 bg-[#141c27] pt-[20px] pb-[20px] overflow-hidden relative">
+      <div className="flex justify-center gap-5 bg-[#141c2789] pt-[20px] pb-[20px] overflow-hidden relative">
         <div className="flex gap-5 animate-slide">
-          <div className="max-w-md bg-[#d78905] text-white rounded-lg shadow-lg p-6">
+          <div className="max-w-md bg-[#d78a05bb] text-white rounded-lg shadow-lg p-6">
             <div className="flex items-center mb-4">
               <div className="w-12 h-12 relative">
                 <Image

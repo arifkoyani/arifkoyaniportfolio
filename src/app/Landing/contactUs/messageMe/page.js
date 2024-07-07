@@ -10,7 +10,7 @@ export default function MessageMe() {
 
   return (
     <main
-      className={`flex min-h-screen bg-[#141c27] flex-col items-center justify-between p-24 `}
+      className={`flex min-h-screen bg-[#141c2789] flex-col items-center justify-between p-24 `}
     >
       <h1>
         You can Send Me{" "}
