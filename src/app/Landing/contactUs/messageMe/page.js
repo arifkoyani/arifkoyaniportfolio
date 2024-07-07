@@ -12,6 +12,7 @@ export default function MessageMe() {
     <main
       className={`flex min-h-screen bg-[#141c27] flex-col items-center justify-between p-24 `}
     >
+      <h1>You can Send Me <span className="font-bold text-[#6d67e4]">Anonymous</span> Messaage </h1>
       <div
         className="visme_d"
         data-title="arifalikoyani"
