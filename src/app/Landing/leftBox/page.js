@@ -2,6 +2,7 @@
 import SocialMediaIcons from "./icons/page";
 import DownloadBtn from "./button/page";
 import { motion } from "framer-motion";
+import Typewriter from "typewriter-effect";
 
 const LeftBox = () => {
   console.log("this is code");
@@ -46,7 +47,16 @@ const LeftBox = () => {
                 duration: 1,
               }}
             >
-              <p className="mb-[5px] font-light ">Front-end Developer</p>
+              <p className="mb-[5px] font-light ">
+                {/* Front-end Developer */}
+                <Typewriter
+                  options={{
+                    strings: ["I'm", "Front-End Developer"],
+                    autoStart: true,
+                    loop: true,
+                  }}
+                />
+              </p>
             </motion.div>
           </div>
 
@@ -67,8 +77,6 @@ const LeftBox = () => {
               </div>
             </motion.div>
           </div>
-
-
         </div>
       </div>
     </>

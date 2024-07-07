@@ -24,7 +24,8 @@
     "react-toastify": "^10.0.5",
     "sweetalert": "^2.1.2",
     "sweetalert2": "^11.11.1",
-    "tsparticles": "^3.4.0"
+    "tsparticles": "^3.4.0",
+    "typewriter-effect": "^2.21.0"
   },
   "devDependencies": {
     "@types/node": "^20",
