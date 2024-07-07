@@ -9,6 +9,7 @@ import Reviews from "./Reviews/page";
 import HellWorld from "./HelloWorld/page";
 import Linkedin from "./HelloWorld/button/page";
 import QRcode from "./qrCode/page";
+import MessageMe from "./contactUs/messageMe/page";
 
 const Landing = () => {
   return (
@@ -24,6 +25,7 @@ const Landing = () => {
       <MySkills />
       <ContactUS />
       <QRcode />
+      <MessageMe />
       <Reviews />
     </>
   );
