@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <>
       <div className="bg-[#141c27a6] flex flex-col ">
-        <div className="flex flex-wrap bg-[#141c27a6] pl-5 pr-5 text-white text-[7px] pt-5 pb-5 justify-between items-center">
+        <div className="flex flex-wrap bg-[#141c27a6] pl-5 pr-5 text-white text-[7px] pt-5 pb-5 justify-around items-center">
           <div className="text-[8px] flex-col">
             <h1 className="font-bold text-sm mb-2">
               ARIF<span className="text-[#e79203] text-xs">KOYANI</span>
@@ -27,14 +27,6 @@ const Footer = () => {
                 arifkoyani@gmail.com
               </p>
             </span>
-          </div>
-          <div className="flex flex-col gap-2 p-1 items-center">
-            <h1 className="text-sm">COMPANY</h1>
-            <div className="flex flex-col text-sm gap-3">
-              <p>about</p>
-              <p>career</p>
-              <p>Mobile</p>
-            </div>
           </div>
           <div className="flex flex-col gap-2 p-1 items-center">
             <h1 className="text-xs">CONTACT</h1>
@@ -73,9 +65,9 @@ const Footer = () => {
           
 
 <footer class="bg-black text-white dark:bg-gray-900">
-    <div class="mx-auto w-full max-w-screen-xl">
-      <div class="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4 ">
-        <div>
+    <div class="mx-auto w-full max-w-screen-xl ">
+    <div class="grid grid-cols-2 gap-5 px-4 py-6 lg:py-8 md:grid-cols-4 place-items-center">
+        <div> 
             <h2 class="mb-6 text-sm font-semibold  uppercase text-white">Company</h2>
             <ul class=" text-white font-medium">
                 <li class="mb-4">
