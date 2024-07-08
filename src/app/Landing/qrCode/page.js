@@ -5,9 +5,15 @@ import pic from "/public/QRcode.gif";
 import QRimage from "/public/QRarifkoyani.png";
 import { motion } from "framer-motion";
 import { ColorRing } from "react-loader-spinner";
+import { useEffect } from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 const QRcode = () => {
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
   // console.log("clear");
   const [QRcode, setQRcode] = useState(false);
   const [loader, setloader] = useState(true);
@@ -35,7 +41,7 @@ const QRcode = () => {
         </h1>
         <div className="h-[300px] flex justify-center items-center">
           {loader ? (
-            <span>
+            <span  data-aos="fade-up">
               {QRcode ? (
                 <motion.div
                   initial={{ opacity: 0, y: 15 }}

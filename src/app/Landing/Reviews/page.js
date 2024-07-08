@@ -4,12 +4,19 @@ import profilePic from "/public/arif.png";
 import a from "/public/usersdp/a.png";
 import b from "/public/usersdp/b.png";
 import e from "/public/usersdp/e.png";
+import AOS from 'aos';
+import { useEffect } from "react";
+import 'aos/dist/aos.css';
 
 const Reviews = () => {
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
+  
   return (
     <>
       <div className="flex justify-center items-center h-[210px] bg-[#141c2789]">
-        <div className="max-w-2xl mx-auto bg-[#141c2789] text-white rounded-lg shadow-lg p-8">
+        <div data-aos="zoom-in" className="max-w-2xl mx-auto bg-[#141c2789] text-white rounded-lg shadow-lg p-8">
           <h2 className="text-3xl font-bold mb-4 text-center border-b pb-4">
             Reviews From Clients
           </h2>
@@ -44,18 +51,7 @@ const Reviews = () => {
               expectations in both functionality and design. Highly
               recommended!&quot;
             </p>
-            <div className="flex justify-center mt-4">
-              <div className="w-10 h-10 bg-white text-red-600 flex items-center justify-center rounded-full">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth={2}
-                  stroke="currentColor"
-                  className="w-6 h-6"
-                ></svg>
-              </div>
-            </div>
+       
           </div>
 
           <div className="max-w-md bg-[#d78905] text-white rounded-lg shadow-lg p-6">
@@ -82,18 +78,7 @@ const Reviews = () => {
               user-friendly website. His technical skills and creativity truly
               set him apart. We couldn&apos;t be happier with the result.&quot;
             </p>
-            <div className="flex justify-center mt-4">
-              <div className="w-10 h-10 bg-white text-red-600 flex items-center justify-center rounded-full">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth={2}
-                  stroke="currentColor"
-                  className="w-6 h-6"
-                ></svg>
-              </div>
-            </div>
+           
           </div>
 
           <div className="max-w-md bg-[#d78905] text-white rounded-lg shadow-lg p-6">
@@ -119,18 +104,7 @@ const Reviews = () => {
               was completed on time and exceeded all our expectations. We look
               forward to working with him again!&quot;
             </p>
-            <div className="flex justify-center mt-4">
-              <div className="w-10 h-10 bg-white text-red-600 flex items-center justify-center rounded-full">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth={2}
-                  stroke="currentColor"
-                  className="w-6 h-6"
-                ></svg>
-              </div>
-            </div>
+            
           </div>
 
           <div className="max-w-md bg-[#d78905] text-white rounded-lg shadow-lg p-6">
@@ -156,18 +130,7 @@ const Reviews = () => {
               expertise with creative design makes him a standout developer. We
               highly recommend his services!&quot;
             </p>
-            <div className="flex justify-center mt-4">
-              <div className="w-10 h-10 bg-white text-red-600 flex items-center justify-center rounded-full">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth={2}
-                  stroke="currentColor"
-                  className="w-6 h-6"
-                ></svg>
-              </div>
-            </div>
+          
           </div>
         </div>
       </div>

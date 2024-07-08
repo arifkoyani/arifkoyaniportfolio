@@ -1,16 +1,23 @@
 "use client";
 
 import Link from "next/link";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Linkedin = () => {
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
   return (
-    <div className="flex bg-[#141c2789] justify-center">
+    <div className="flex bg-[#141c2789] justify-center " >
      
      <Link href="https://www.linkedin.com/in/arifkoyani/" target="_blank">
     
       <button
         type="button"
         className="text-white bg-[#3b5998] hover:bg-[#3b5998]/90 focus:ring-4 focus:outline-none focus:ring-[#3b5998]/50 font-medium rounded-[3px] text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#3b5998]/55 me-2 mb-2 hover:shadow-[5px_0_15px_-3px_#f79b00, -5px_0_15px_-3px_#f79b00] transition-shadow duration-300"
+      data-aos="fade-left"
       >
         <svg
           className="w-4 h-4 me-2"

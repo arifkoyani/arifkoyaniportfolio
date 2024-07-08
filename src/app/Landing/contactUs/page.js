@@ -7,8 +7,16 @@ import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import Swal from "sweetalert2";
 import HeartCircle from "./like/page";
+import { useEffect } from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+
 
 const ContactUS = () => {
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
@@ -56,7 +64,7 @@ const ContactUS = () => {
     <div className=" bg-[#141c2789] flex items-center justify-center">
       <div className="flex gap-10 bg-[#141c2789] rounded-lg shadow-2xl  pt-72 contactUs">
         <div className="w-[40vw] flex flex-col justify-between pb-8 text-white pl-[20px]">
-          <span>
+          <span data-aos="fade-up">
             <h1 className="text-4xl font-bold mb-6">CONTACT INFO</h1>
             <div className="flex items-center gap-2 mb-4">
               <Image
@@ -87,7 +95,7 @@ const ContactUS = () => {
             below, or email us.
           </p>
 
-          <form ref={form} onSubmit={sendEmail}>
+          <form ref={form} onSubmit={sendEmail} data-aos="fade-up">
             <input
               type="text"
               placeholder="Full Name"

@@ -10,15 +10,23 @@ import HellWorld from "./HelloWorld/page";
 import Linkedin from "./HelloWorld/button/page";
 import QRcode from "./qrCode/page";
 import MessageMe from "./contactUs/messageMe/page";
-import ParticlesComponent from '../particles/particles';
+import ParticlesComponent from "../particles/particles";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 const Landing = () => {
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
+
   return (
     <>
       <div id="particles">
-      <ParticlesComponent id="particles" />
+        <ParticlesComponent id="particles" />
         <div className="w-[100%] bg-[#141c2789] flex justify-center  items-center leftandright">
-          <LeftBox />
-          <RightBox />
+          <LeftBox data-aos="fade-up" />
+          <RightBox data-aos="fade-left" />
         </div>
         <PointsBar />
         <HellWorld />

@@ -1,3 +1,4 @@
+"use client"
 import Image from "next/image";
 import ai from "/public/myskills/ai.png";
 import canva from "/public/myskills/canva.png";
@@ -6,13 +7,20 @@ import excel from "/public/myskills/excel.png";
 import nextt from "/public/myskills/NEXT.png";
 import js from "/public/myskills/js.png";
 import ps from "/public/myskills/ps.png";
-import ReactImg from "/public/myskills/React.png"; // Renamed to avoid conflict with React import
+import ReactImg from "/public/myskills/React.png"; 
+import { useEffect } from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 
 const Myskills = () => {
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
   return (
     <>
       <div className="flex flex-col items-center justify-center  pt-60 bg-[#141c2789] gap-5 ">
-        <div>
+        <div data-aos="fade-up"> 
           <h1
             className="font-bold text-[30px] text-[#f79b00] skillsnames"
           >
@@ -20,7 +28,7 @@ const Myskills = () => {
           </h1>
         </div>
 
-        <div className="flex gap-4 p-2 justify-around bg-[#141c2789] skills">
+        <div className="flex gap-4 p-2 justify-around bg-[#141c2789] skills " data-aos="fade-up">
           <Image
             src={nextt}
             width={100}
