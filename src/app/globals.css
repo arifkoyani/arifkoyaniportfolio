@@ -29,6 +29,7 @@
         grid-template-columns: repeat(2, 1fr);
     }
    
+   
     .leftandright{
         display: flex;
         flex-direction: column;
@@ -51,15 +52,26 @@ font-size: 50px;
   
 }
 @media only screen and (max-width: 800px) {
-
+    .reactions{
+        display: flex;
+        flex-direction: column;
+    }
 .aboutme{
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 90%;
 }
 .contactUs{
 display: flex;
 flex-direction: column;
+justify-items: center;
+align-items: center;
+/* padding: 0px; */
+width: 80vw;
+}
+.hellowordtext{
+    font-size: 15px;
 }
 }
 @media only screen and (max-width: 668px) {
