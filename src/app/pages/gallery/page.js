@@ -13,7 +13,7 @@ const Gallery = () => {
     const fetchData = async () => {
       try {
         const response = await axios.get(
-          "https://jsonplaceholder.typicode.com/photos"
+          "https://picsum.photos/v2/list?page=1&limit=20"
         );
         console.log(response.data);
         setPhotos(response.data);
@@ -28,6 +28,7 @@ const Gallery = () => {
 
   return (
     <>
+    {console.log(photos)}
       {loading ? (
         <div className="h-[90vh] p-10 bg-[#141c27]">
           <motion.div
@@ -60,7 +61,7 @@ const Gallery = () => {
           </h1>
 
           <div className="grid grid-cols-4 gap-10 justify-center bg-[#141c27] images">
-            {photos.slice(0, 20).map((e) => (
+            {photos.map((e) => (
               <div key={e.id}>
                 <motion.div
                   initial={{ opacity: 0, y: 15 }}
@@ -73,7 +74,7 @@ const Gallery = () => {
                 >
                   <Image
                     onClick={() => alert("this is sample image")}
-                    src={`${e.thumbnailUrl}`}
+                    src={e.download_url}
                     width={200}
                     height={200}
                     className="h-auto max-w-full rounded-lg"
