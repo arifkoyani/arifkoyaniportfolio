@@ -19,15 +19,61 @@ const AboutMe = () => {
         transition={{ duration: 1 }}
         className="bg-[#141c27] w-[50vw] pl-[10px]"
       >
-        <div className="flex bg-[#141c2700] flex-col gap-[30px] pt-[100px] justify-center items-center p-10" >
-          <div className="flex flex-col gap-1 bg-[#141c2789]">
-            <h1 className="font-bold text-[30px]" data-aos="fade-up">THIS IS ABOUT ME</h1>
-            <div className="w-[11vw] h-1 bg-slate-50" data-aos="fade-up"></div>
-          </div>
-          <p className="text-[14px] leading-10" data-aos="fade-up">
-            🌐 Hey there! I&apos;m Arifkoyani, a passionate web developer and front-end engineer 🎨. Specializing in Next.js, I craft stunning, responsive websites that offer seamless user experiences 📱💻. With a knack for design and a love for coding, I bring ideas to life with clean, efficient code ✨. My work reflects creativity and precision, ensuring every project is both beautiful and functional 🌟. Let&apos;s turn your vision into reality together! 🚀 #WebDeveloper #FrontEndEngineer #NextJS #CreativeCoding <b className="font-bold">....More</b>
-          </p>
-        </div>
+        
+<div className="flex bg-[#141c2700] flex-col gap-[30px] pt-[100px] justify-center items-center p-10">
+  <div className="flex flex-col gap-1 bg-[#141c2789]">
+    <h1 className="font-bold text-[30px]" data-aos="fade-up">
+      THIS IS ABOUT ME
+    </h1>
+    <div
+      className="w-[11vw] h-1 bg-slate-50"
+      data-aos="fade-up"
+    ></div>
+  </div>
+
+  <div className="text-[14px] leading-10" data-aos="fade-up">
+    <p>
+      🌐 Hey there! I'm Arif Hussain, a{" "}
+      <b>Full Stack Developer | AI Automation Engineer | AI Engineer</b>.
+      <br />
+      **Forward Deploy Engineer (FDE)**
+      <br />
+      Building AI-powered automation, full-stack applications, and
+      intelligent solutions using modern technologies.
+    </p>
+
+    <p className="mt-4">
+      <span className="text-green-400 font-semibold">
+        ● Open to new opportunities
+      </span>
+    </p>
+
+    <p className="mt-3">
+      Explore my portfolio:{" "}
+      <a
+        href="https://www.arifkoyani.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="font-bold underline underline-offset-4 hover:text-blue-400"
+      >
+        arifkoyani
+      </a>
+    </p>
+
+    <p className="mt-3">
+      Try my project:{" "}
+      <a
+        href="https://www.khanpdf.com/url-to-pdf"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="font-bold underline underline-offset-4 hover:text-blue-400"
+      >
+        download pdf from link
+      </a>
+    </p>
+  </div>
+</div>
+
       </motion.div>
 
       <motion.div
